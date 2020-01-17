@@ -9,7 +9,7 @@ To determine if a number can be evenly divided by 5 or 7, use the Python modulo 
 
 one_hundred = range(1,101)
 
-# For loop loops through each item in one_hundred 
+# For loop loops through each item in one_hundred and runs it through each conditional. The first condition to evaluate to true for each item executes its function.
 for i in one_hundred:
     # print(i)
     if i % 5 == 0 and i % 7 == 0:
